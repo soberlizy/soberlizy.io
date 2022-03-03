@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "dev":"yarn clean && yarn build && yarn server",
-    "pro":"yarn clean && yarn build && yarn deploy"
+    "pro":"git push && yarn clean && yarn build && yarn deploy"
   },
   "hexo": {
     "version": "5.4.1"
